@@ -4,15 +4,19 @@ LCEL(LangChain Expression Language)을 사용하여 체인을 구성합니다.
 기본적으로 modules.prompt 템플릿과 modules.models 모듈을 사용하여 LangChain 체인을 생성합니다.
 """
 
-# from langchain.schema.runnable import RunnablePassthrough, RunnableSerializable
-# from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
+from langchain.chains.summarize import load_summarize_chain
+from langchain.schema.runnable import RunnableSerializable  # , RunnablePassthrough
+from langchain_core.output_parsers import JsonOutputParser, StrOutputParser
+
+from agents.marketing.modules.models import get_openai_model
+from agents.marketing.modules.prompts import (
+    get_write_contents_prompt,
+    notion_page_creation_prompt,
+    summary_doc_prompt,
+)
+
 # from langchain_core.pydantic_v1 import BaseModel, Field
 
-# from agents.marketing.modules.models import get_openai_model
-# from agents.marketing.modules.prompts import (
-#     get_campaign_generation_prompt,
-#     get_content_creation_prompt,
-# )
 
 # 예시 함수들입니다. 참고용으로 남겨둡니다.
 
@@ -95,3 +99,43 @@ LCEL(LangChain Expression Language)을 사용하여 체인을 구성합니다.
 #         | model  # LLM 모델 호출
 #         | StrOutputParser()  # 결과를 문자열로 변환
 #     )
+
+
+def map_reduce_summary_chain() -> RunnableSerializable:
+    """
+    Map Reduce 방식으로 문서를 나누어서 각각을 요약한 뒤 모두 합쳐서 한번 더 요약합니다.
+    """
+    model = get_openai_model()
+    prompt = summary_doc_prompt()
+    chain = load_summarize_chain(
+        llm=model, chain_type="map_reduce", map_prompt=prompt, combine_prompt=prompt
+    )
+    return chain
+
+
+def stuff_summary_chain() -> RunnableSerializable:
+    """
+    문서를 한번에 보고 요약합니다.
+    """
+    model = get_openai_model()
+    prompt = summary_doc_prompt()
+    chain = load_summarize_chain(
+        llm=model,
+        chain_type="stuff",
+        prompt=prompt,
+    )
+    return chain
+
+
+def write_blog_content_chain() -> RunnableSerializable:
+    model = get_openai_model()
+    prompt = get_write_contents_prompt()
+
+    return prompt | model | StrOutputParser()
+
+
+def create_notion_page_chain() -> RunnableSerializable:
+    model = get_openai_model()
+    prompt = notion_page_creation_prompt()
+
+    return prompt | model | JsonOutputParser()

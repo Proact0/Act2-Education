@@ -1,7 +1,8 @@
 from langgraph.graph import StateGraph
 
 from agents.base_workflow import BaseWorkflow
-from agents.marketing.modules.state import MarketingState
+from agents.marketing.modules.nodes import DocSummarizationNode, NotionWritingNode
+from agents.marketing.modules.state import ContentState  # , MarketingState
 
 
 class MarketingWorkflow(BaseWorkflow):
@@ -48,7 +49,15 @@ class MarketingWorkflow(BaseWorkflow):
         # )
 
         # 기본 에지 설정 (임시)
-        builder.add_edge("__start__", "__end__")
+        # builder.add_edge("__start__", "__end__")
+
+        # Notion contents writer node and edge
+        builder.add_node("summarize_doc", DocSummarizationNode())
+        builder.add_node("notion_write", NotionWritingNode())
+
+        builder.add_edge("__start__", "summarize_doc")
+        builder.add_edge("summarize_doc", "notion_write")
+        builder.add_edge("notion_write", "__end__")
 
         workflow = builder.compile()  # 그래프 컴파일
         workflow.name = self.name  # Workflow 이름 설정
@@ -57,4 +66,11 @@ class MarketingWorkflow(BaseWorkflow):
 
 
 # 마케팅 Workflow 인스턴스 생성
-marketing_workflow = MarketingWorkflow(MarketingState)
+marketing_workflow = MarketingWorkflow(ContentState)
+
+
+if __name__ == "__main__":
+    input_state = {"input_file": "agents/marketing/input_content_001_splitted.pdf"}
+
+    final_state = marketing_workflow().invoke(input_state)
+    print("📄 결과:", final_state["result"])

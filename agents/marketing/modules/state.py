@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Annotated, List, TypedDict
+from typing import Annotated, List, Optional, TypedDict
 
 from langchain_core.messages import AIMessage, HumanMessage
 from langgraph.graph.message import add_messages
@@ -28,3 +28,11 @@ class MarketingState(TypedDict):
     messages: Annotated[List[HumanMessage | AIMessage], add_messages]  # 메시지 목록
     # Annotated는 Python 타입 어노테이션으로, add_messages는 LangGraph에서 사용하는 특별한 함수입니다.
     # add_messages는 메시지 목록에 새로운 메시지를 추가할 때 이전 메시지를 유지하면서 추가하는 기능을 자동으로 처리합니다.
+
+
+@dataclass
+class ContentState(TypedDict):
+    input_file: str
+    document_summary: Optional[str]
+    content: Optional[str]
+    result: Optional[str]

@@ -13,6 +13,37 @@
 # import json
 # from datetime import datetime
 
+from langchain.document_loaders import PyPDFLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_core.documents import Document
+
+
+def load_pdf_documents(
+    file_path: str,
+    chunk_size: int = 5000,
+    chunk_overlap: int = 100,
+) -> list[Document]:
+    """
+    PDF 파일을 로드하고, 지정된 크기로 텍스트를 분할한 후 Document 객체 리스트로 반환합니다.
+
+    RecursiveCharacterTextSplitter를 통해 긴 텍스트를 여러 chunk로 나눕니다.
+    각 chunk는 downstream LLM 처리에 적합한 길이로 유지됩니다.
+
+    Args:
+        file_path (str): 분할할 PDF 파일의 경로.
+        chunk_size (int, optional): 각 chunk의 최대 문자 수.
+        chunk_overlap (int, optional): 인접한 chunk 간 중복 문자 수.
+
+    Returns:
+        List[Document]: 분할된 문서 조각들의 리스트. 각 Document는 page_content와 metadata를 포함합니다.
+    """
+    loader = PyPDFLoader(file_path)
+    documents = loader.load()
+    splitter = RecursiveCharacterTextSplitter(
+        chunk_size=chunk_size, chunk_overlap=chunk_overlap
+    )
+    return splitter.split_documents(documents)
+
 
 # def get_message_text(msg: BaseMessage) -> str:
 #     """메시지의 텍스트 내용을 가져옵니다."""
