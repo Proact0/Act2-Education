@@ -1,0 +1,6 @@
+search_date,source_link,headline,text
+2025-08-17T11:35:53.774414,https://search.example.com?q=1. Who founded LangChain?,Error searching web for: 1. Who founded LangChain?,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:35:53.775285,https://search.example.com?q=2. LangChain founder name,Error searching web for: 2. LangChain founder name,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:35:53.776158,https://search.example.com?q=3. Who is behind LangChain?,Error searching web for: 3. Who is behind LangChain?,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:35:53.777195,https://search.example.com?q=4. Founder of LangChain company,Error searching web for: 4. Founder of LangChain company,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:35:53.778139,https://search.example.com?q=5. Who started LangChain?,Error searching web for: 5. Who started LangChain?,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"

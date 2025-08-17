@@ -1,0 +1,6 @@
+search_date,source_link,headline,text
+2025-06-29T22:44:08.357195,https://search.example.com?q=1.,Error searching web for: 1.,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-06-29T22:44:08.357738,https://search.example.com?q=2.,Error searching web for: 2.,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-06-29T22:44:08.358302,https://search.example.com?q=3.,Error searching web for: 3.,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-06-29T22:44:08.358809,https://search.example.com?q=4.,Error searching web for: 4.,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-06-29T22:44:08.359333,https://search.example.com?q=5.,Error searching web for: 5.,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"

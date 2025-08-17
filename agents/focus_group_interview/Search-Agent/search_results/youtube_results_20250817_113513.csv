@@ -1,0 +1,6 @@
+search_date,source_link,headline,text
+2025-08-17T11:35:13.647363,https://youtube.com/search?q=1. Who founded LangChain?,Error searching YouTube for: 1. Who founded LangChain?,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:35:13.648189,https://youtube.com/search?q=2. LangChain founder name,Error searching YouTube for: 2. LangChain founder name,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:35:13.649003,https://youtube.com/search?q=3. Who is behind LangChain?,Error searching YouTube for: 3. Who is behind LangChain?,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:35:13.649874,https://youtube.com/search?q=4. Founder of LangChain company,Error searching YouTube for: 4. Founder of LangChain company,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:35:13.650575,https://youtube.com/search?q=5. Who started LangChain?,Error searching YouTube for: 5. Who started LangChain?,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"

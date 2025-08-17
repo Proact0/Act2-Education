@@ -1,0 +1,6 @@
+search_date,source_link,headline,text
+2025-06-29T05:04:37.365459,https://search.example.com?q=1. Who created LangChain?,Error searching web for: 1. Who created LangChain?,Error: Web search failed: 404
+2025-06-29T05:04:37.368839,https://search.example.com?q=2. Founder name of LangChain,Error searching web for: 2. Founder name of LangChain,Error: Web search failed: 404
+2025-06-29T05:04:37.371126,https://search.example.com?q=3. Who is behind the development of LangChain?,Error searching web for: 3. Who is behind the development of LangChain?,Error: Web search failed: 404
+2025-06-29T05:04:37.373330,https://search.example.com?q=4. LangChain founding person,Error searching web for: 4. LangChain founding person,Error: Web search failed: 404
+2025-06-29T05:04:37.375946,https://search.example.com?q=5. Identity of the LangChain founder,Error searching web for: 5. Identity of the LangChain founder,Error: Web search failed: 404

@@ -1,0 +1,6 @@
+search_date,source_link,headline,text
+2025-06-29T04:56:48.535807,"https://search.example.com?q=1. ""Founder of LangChain""","Error searching web for: 1. ""Founder of LangChain""",Error: Web search failed: 404
+2025-06-29T04:56:48.539102,"https://search.example.com?q=2. ""Who created LangChain?""","Error searching web for: 2. ""Who created LangChain?""",Error: Web search failed: 404
+2025-06-29T04:56:48.541831,"https://search.example.com?q=3. ""Person behind the establishment of LangChain technology""","Error searching web for: 3. ""Person behind the establishment of LangChain technology""",Error: Web search failed: 404
+2025-06-29T04:56:48.544868,"https://search.example.com?q=4. ""Identity of LangChain founder""","Error searching web for: 4. ""Identity of LangChain founder""",Error: Web search failed: 404
+2025-06-29T04:56:48.547351,"https://search.example.com?q=5. ""Leadership and founding team of LangChain""","Error searching web for: 5. ""Leadership and founding team of LangChain""",Error: Web search failed: 404

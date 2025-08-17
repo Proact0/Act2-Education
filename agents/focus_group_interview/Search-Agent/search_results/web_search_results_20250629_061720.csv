@@ -1,0 +1,6 @@
+search_date,source_link,headline,text
+2025-06-29T06:17:20.124971,"https://search.example.com?q=1. What does it mean when someone says ""None of your business""?","Error searching web for: 1. What does it mean when someone says ""None of your business""?",Error: Web search failed: 404
+2025-06-29T06:17:20.127449,https://search.example.com?q=2. Can none be considered a number?,Error searching web for: 2. Can none be considered a number?,Error: Web search failed: 404
+2025-06-29T06:17:20.129831,https://search.example.com?q=3. Difference between none and null in programming languages,Error searching web for: 3. Difference between none and null in programming languages,Error: Web search failed: 404
+2025-06-29T06:17:20.131792,"https://search.example.com?q=4. Historical use of the term ""none"" in English literature","Error searching web for: 4. Historical use of the term ""none"" in English literature",Error: Web search failed: 404
+2025-06-29T06:17:20.133622,"https://search.example.com?q=5. How to use ""none"" in Python to represent absence of value","Error searching web for: 5. How to use ""none"" in Python to represent absence of value",Error: Web search failed: 404

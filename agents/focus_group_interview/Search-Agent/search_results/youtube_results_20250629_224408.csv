@@ -1,0 +1,6 @@
+search_date,source_link,headline,text
+2025-06-29T22:44:08.283538,https://youtube.com/search?q=1.,Error searching YouTube for: 1.,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-06-29T22:44:08.284434,https://youtube.com/search?q=2.,Error searching YouTube for: 2.,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-06-29T22:44:08.285144,https://youtube.com/search?q=3.,Error searching YouTube for: 3.,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-06-29T22:44:08.285858,https://youtube.com/search?q=4.,Error searching YouTube for: 4.,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-06-29T22:44:08.352537,https://youtube.com/search?q=5.,Error searching YouTube for: 5.,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"

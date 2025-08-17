@@ -1,0 +1,6 @@
+search_date,source_link,headline,text
+2025-08-17T11:31:09.518612,https://search.example.com?q=1. None definition and origin,Error searching web for: 1. None definition and origin,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:31:09.519519,https://search.example.com?q=2. None vs Null in programming,Error searching web for: 2. None vs Null in programming,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:31:09.520337,https://search.example.com?q=3. How to use None in Python,Error searching web for: 3. How to use None in Python,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:31:09.521196,https://search.example.com?q=4. The philosophy of none in Buddhism,Error searching web for: 4. The philosophy of none in Buddhism,"Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"
+2025-08-17T11:31:09.521957,"https://search.example.com?q=5. Differences between none, zero, and null in mathematics","Error searching web for: 5. Differences between none, zero, and null in mathematics","Error: Cannot connect to host localhost:8000 ssl:default [Connect call failed ('127.0.0.1', 8000)]"

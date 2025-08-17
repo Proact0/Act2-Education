@@ -1,0 +1,6 @@
+search_date,source_link,headline,text
+2025-06-29T06:09:05.840227,https://search.example.com?q=1.,Error searching web for: 1.,Error: Web search failed: 404
+2025-06-29T06:09:05.841894,https://search.example.com?q=2.,Error searching web for: 2.,Error: Web search failed: 404
+2025-06-29T06:09:05.843400,https://search.example.com?q=3.,Error searching web for: 3.,Error: Web search failed: 404
+2025-06-29T06:09:05.844853,https://search.example.com?q=4.,Error searching web for: 4.,Error: Web search failed: 404
+2025-06-29T06:09:05.846212,https://search.example.com?q=5.,Error searching web for: 5.,Error: Web search failed: 404

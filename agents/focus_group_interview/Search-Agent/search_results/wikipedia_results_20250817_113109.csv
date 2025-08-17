@@ -1,0 +1,218 @@
+search_date,source_link,headline,text
+2025-08-17T11:30:37.254758,https://en.wikipedia.org/wiki/Definition,Definition,"A definition is a statement of the meaning of a term (a word, phrase, or other set of symbols). Definitions can be classified into two large categories: intensional definitions (which try to give the sense of a term), and extensional definitions (which try to list the objects that a term describes). Another important category of definitions is the class of ostensive definitions, which convey the meaning of a term by pointing out examples. A term may have many different senses and multiple meanings, and thus require multiple definitions.
+In mathematics, a definition is used to give a precise meaning to a new term, by describing a condition which unambiguously qualifies what the mathematical term is and is not. Definitions and axioms form the basis on which all of modern mathematics is to be constructed."
+2025-08-17T11:30:37.254793,https://en.wikipedia.org/wiki/1,1,"1 (one, unit, unity) is a number, numeral, and glyph. It is the first and smallest positive integer of the infinite sequence of natural numbers. This fundamental property has led to its unique uses in other fields, ranging from science to sports, where it commonly denotes the first, leading, or top thing in a group. 1 is the unit of counting or measurement, a determiner for singular nouns, and a gender-neutral pronoun. Historically, the representation of 1 evolved from ancient Sumerian and Babylonian symbols to the modern Arabic numeral.
+In mathematics, 1 is the multiplicative identity, meaning that any number multiplied by 1 equals the same number. 1 is by convention not considered a prime number. In digital technology, 1 represents the ""on"" state in binary code, the foundation of computing. Philosophically, 1 symbolizes the ultimate reality or source of existence in various traditions."
+2025-08-17T11:30:37.254799,https://en.wikipedia.org/wiki/Genocide_definitions,Genocide definitions,"Genocide definitions include many scholarly and international legal definitions of genocide, a word coined by Raphael Lemkin in 1944. The word is a compound of the ancient Greek word γένος (génos, 'genus', or 'kind') and the Latin word caedō (""kill""). While there are various definitions of the term, almost all international bodies of law officially adjudicate the crime of genocide pursuant to the Convention on the Prevention and Punishment of the Crime of Genocide (CPPCG).
+This and other definitions are generally regarded by the majority of genocide scholars to have an ""intent to destroy"" as a requirement for any act to be labelled genocide; there is also growing agreement on the inclusion of the physical destruction criterion. Writing in 1998, Kurt Jonassohn and Karin Björnson stated that the CPPCG was a legal instrument resulting from a diplomatic compromise; the wording of the treaty is not intended to be a definition suitable as a research tool, and although it is used for this purpose, as it has an international legal credibility that others lack, other definitions have also been postulated. This has been supported by later scholars. Jonassohn and Björnson go on to say that for various reasons, none of these alternative definitions have gained widespread support. Rouben Paul Adalian writing in 2002 also highlights the difficulty there has been in trying to develop a common definition for genocide among specialists.
+According to Ernesto Verdeja, associate professor of pol"
+2025-08-17T11:30:37.254804,https://en.wikipedia.org/wiki/Late_Pleistocene,Late Pleistocene,"The Late Pleistocene is an unofficial age in the international geologic timescale in chronostratigraphy, also known as the Upper Pleistocene from a stratigraphic perspective. It is intended to be the fourth division of the Pleistocene Epoch within the ongoing Quaternary Period. It is currently defined as the time between c. 129,000 and c. 11,700 years ago. The late Pleistocene equates to the proposed Tarantian Age of the geologic time scale, preceded by the officially ratified Chibanian (commonly known as the Middle Pleistocene). The beginning of the Late Pleistocene is the transition between the end of the Penultimate Glacial Period and the beginning of the Last Interglacial around 130,000 years ago (corresponding with the beginning of Marine Isotope Stage 5). The Late Pleistocene ends with the termination of the Younger Dryas, some 11,700 years ago when the Holocene Epoch began.
+The term Upper Pleistocene is currently in use as a provisional or ""quasi-formal"" designation by the International Union of Geological Sciences (IUGS). Although the three oldest ages of the Pleistocene (the Gelasian, the Calabrian and the Chibanian) have been officially defined, the late Pleistocene has yet to be formally defined.
+Following the brief Last Interglacial warm period (~130–115,000 years ago), where temperatures were comparable to or warmer than the Holocene, the Late Pleistocene was dominated by the cool Last Glacial Period, with temperatures gradually lowering throughout the period, re"
+2025-08-17T11:30:37.254808,https://en.wikipedia.org/wiki/Life,Life,"Life, also known as biota, refers to matter that has biological processes, such as signaling and self-sustaining processes. It is defined descriptively by the capacity for homeostasis, organisation, metabolism, growth, adaptation, response to stimuli, and reproduction. All life over time eventually reaches a state of death, and none is immortal. Many philosophical definitions of living systems have been proposed, such as self-organizing systems. Viruses in particular make definition difficult as they replicate only in host cells. Life exists all over the Earth in air, water, and soil, with many ecosystems forming the biosphere. Some of these are harsh environments occupied only by extremophiles.
+Life has been studied since ancient times, with theories such as Empedocles's materialism asserting that it was composed of four eternal elements, and Aristotle's hylomorphism asserting that living things have souls and embody both form and matter. Life originated at least 3.5 billion years ago, resulting in a universal common ancestor. This evolved into all the species that exist now, by way of many extinct species, some of which have left traces as fossils. Attempts to classify living things, too, began with Aristotle. Modern classification began with Carl Linnaeus's system of binomial nomenclature in the 1740s.
+Living things are composed of biochemical molecules, formed mainly from a few core chemical elements. All living things contain two types of large molecule, proteins and nuc"
+2025-08-17T11:30:44.319182,https://en.wikipedia.org/wiki/Pointer_(computer_programming),Pointer (computer programming),"In computer science, a pointer is an object in many programming languages that stores a memory address. This can be that of another value located in computer memory, or in some cases, that of memory-mapped computer hardware. A pointer references a location in memory, and obtaining the value stored at that location is known as dereferencing the pointer. As an analogy, a page number in a book's index could be considered a pointer to the corresponding page; dereferencing such a pointer would be done by flipping to the page with the given page number and reading the text found on that page. The actual format and content of a pointer variable is dependent on the underlying computer architecture.
+Using pointers significantly improves performance for repetitive operations, like traversing iterable data structures (e.g. strings, lookup tables, control tables, linked lists, and tree structures). In particular, it is often much cheaper in time and space to copy and dereference pointers than it is to copy and access the data to which the pointers point.
+Pointers are also used to hold the addresses of entry points for called subroutines in procedural programming and for run-time linking to dynamic link libraries (DLLs). In object-oriented programming, pointers to functions are used for binding methods, often using virtual method tables.
+A pointer is a simple, more concrete implementation of the more abstract reference data type. Several languages, especially low-level languages, support "
+2025-08-17T11:30:44.319210,https://en.wikipedia.org/wiki/Python_(programming_language),Python (programming language),"Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+Python is dynamically type-checked and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.
+Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language, and he first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000. Python 3.0, released in 2008, was a major revision not completely backward-compatible with earlier versions. Python 2.7.18, released in 2020, was the last release of Python 2.
+Python consistently ranks as one of the most popular programming languages, and it has gained widespread use in the machine learning community. It is widely taught as an introductory programming language."
+2025-08-17T11:30:44.319214,https://en.wikipedia.org/wiki/Object-oriented_programming,Object-oriented programming,"Object-oriented programming (OOP) is a programming paradigm based on the object – a software entity that encapsulates data and function(s). An OOP computer program consists of objects that interact with one another. A programming language that provides OOP features is classified as an OOP language but as the set of features that contribute to OOP is contended, classifying a language as OOP and the degree to which it supports or is OOP, are debatable. As paradigms are not mutually exclusive, a language can be multi-paradigm; can be categorized as more than only OOP.
+Sometimes, objects represent real-world things and processes in digital form. For example, a graphics program may have objects such as circle, square, and menu. An online shopping system might have objects such as shopping cart, customer, and product. Niklaus Wirth said, ""This paradigm [OOP] closely reflects the structure of systems in the real world and is therefore well suited to model complex systems with complex behavior"".
+However, more often, objects represent abstract entities, like an open file or a unit converter. Not everyone agrees that OOP makes it easy to copy the real world exactly or that doing so is even necessary. Bob Martin suggests that because classes are software, their relationships don't match the real-world relationships they represent. Bertrand Meyer argues that a program is not a model of the world but a model of some part of the world; ""Reality is a cousin twice removed"". Steve Yegge noted"
+2025-08-17T11:30:44.319217,https://en.wikipedia.org/wiki/Ada_(programming_language),Ada (programming language),"Ada is a structured, statically typed, imperative, and object-oriented high-level programming language, inspired by Pascal and other languages. It has built-in language support for design by contract (DbC), extremely strong typing, explicit concurrency, tasks, synchronous message passing, protected objects, and non-determinism. Ada improves code safety and maintainability by using the compiler to find errors in favor of runtime errors. Ada is an international technical standard, jointly defined by the International Organization for Standardization (ISO), and the International Electrotechnical Commission (IEC). As of May 2023, the standard, ISO/IEC 8652:2023, is called Ada 2022 informally.
+Ada was originally designed by a team led by French computer scientist Jean Ichbiah of Honeywell under contract to the United States Department of Defense (DoD) from 1977 to 1983 to supersede over 450 programming languages then used by the DoD. Ada was named after Ada Lovelace (1815–1852), who has been credited as the first computer programmer."
+2025-08-17T11:30:44.319220,https://en.wikipedia.org/wiki/Omnibus_test,Omnibus test,"Omnibus tests are a kind of statistical test. They test whether the explained variance in a set of data is significantly greater than the unexplained variance, overall. One example is the F-test in the analysis of variance. There can be legitimate significant effects within a model even if the omnibus test is not significant. For instance, in a model with two independent variables, if only one variable exerts a significant effect on the dependent variable and the other does not, then the omnibus test may be non-significant. This fact does not affect the conclusions that may be drawn from the one significant variable. In order to test effects within an omnibus test, researchers often use contrasts.
+Omnibus test, as a general name, refers to an overall or a global test. Other names include F-test or Chi-squared test. It is a statistical test implemented on an overall hypothesis that tends to find general significance between parameters' variance, while examining parameters of the same type, such as:
+Hypotheses regarding equality vs. inequality between k expectancies μ1 = μ2 = ⋯ = μk vs. at least one pair μj ≠ μj′, where j, j′ = 1, ..., k and j ≠ j′, in Analysis Of Variance (ANOVA); 
+or regarding equality between k standard deviations σ1 = σ2= ⋯ = σk vs. at least one pair σj ≠ σj′ in testing equality of variances in ANOVA; 
+or regarding coefficients β1 = β2 = ⋯ = βk vs. at least one pair βj ≠ βj′ in Multiple linear regression or in Logistic regression.
+Usually, it tests more tha"
+2025-08-17T11:30:50.665156,https://en.wikipedia.org/wiki/Python_(programming_language),Python (programming language),"Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+Python is dynamically type-checked and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming.
+Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language, and he first released it in 1991 as Python 0.9.0. Python 2.0 was released in 2000. Python 3.0, released in 2008, was a major revision not completely backward-compatible with earlier versions. Python 2.7.18, released in 2020, was the last release of Python 2.
+Python consistently ranks as one of the most popular programming languages, and it has gained widespread use in the machine learning community. It is widely taught as an introductory programming language."
+2025-08-17T11:30:50.665172,https://en.wikipedia.org/wiki/Reticulated_python,Reticulated python,"The reticulated python (Malayopython reticulatus) is a python species native to South and Southeast Asia. It is the world's longest snake, and the third heaviest snake. It is a non-venomous constrictor and an excellent swimmer that has been reported far out at sea. It has colonized many small islands within its range. Because of its wide distribution, it is listed as least concern on the IUCN Red List. In several countries in its range, it is hunted for its skin, for use in traditional medicine, and for sale as pets. Due to this, it is one of the most economically important reptiles worldwide. In very rare cases, reticulated pythons have killed and swallowed adult humans."
+2025-08-17T11:30:50.665174,https://en.wikipedia.org/wiki/Python_syntax_and_semantics,Python syntax and semantics,"The syntax of the Python programming language is the set of rules that defines how a Python program will be written and interpreted (by both the runtime system and by human readers). The Python language has many similarities to Perl, C, and Java. However, there are some definite differences between the languages. It supports multiple programming paradigms, including structured, object-oriented programming, and functional programming, and boasts a dynamic type system and automatic memory management.
+Python's syntax is simple and consistent, adhering to the principle that ""There should be one—and preferably only one—obvious way to do it."" The language incorporates built-in data types and structures, control flow mechanisms,  first-class functions, and modules for better code reusability and organization. Python also uses English keywords where other languages use punctuation, contributing to its uncluttered visual layout.
+The language provides robust error handling through exceptions, and includes a debugger in the standard library for efficient problem-solving. Python's syntax, designed for readability and ease of use, makes it a popular choice among beginners and professionals alike."
+2025-08-17T11:30:50.665176,https://en.wikipedia.org/wiki/Mark_Pilgrim,Mark Pilgrim,"Mark Pilgrim is a software developer, writer, and advocate of free software.  He authored a popular blog, and has written several books, including Dive into Python, a guide to the Python programming language published under the GNU Free Documentation License. Formerly an accessibility architect in the IBM Emerging Technologies Group, he started working at Google in March 2007. In 2018, he moved to Brave."
+2025-08-17T11:30:50.665178,https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface,Web Server Gateway Interface,"The Web Server Gateway Interface (WSGI, pronounced whiskey or WIZ-ghee) is a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python programming language. The current version of WSGI, version 1.0.1, is specified in Python Enhancement Proposal (PEP) 3333.
+WSGI was originally specified as PEP-333 in 2003. PEP-3333, published in 2010, updates the specification for Python 3."
+2025-08-17T11:31:00.700511,https://en.wikipedia.org/wiki/Tibetan_Buddhism,Tibetan Buddhism,"Tibetan Buddhism is a form of Buddhism practiced in Tibet, Bhutan and Mongolia. It also has a sizable number of adherents in the areas surrounding the Himalayas, including the Indian regions of Ladakh, Darjeeling, Sikkim, and Arunachal Pradesh, as well as in Nepal. Smaller groups of practitioners can be found in Central Asia, some regions of China such as Northeast China, Xinjiang, Inner Mongolia and some regions of Russia, such as Tuva, Buryatia, and Kalmykia.
+Tibetan Buddhism evolved as a form of Mahayana Buddhism stemming from the latest stages of Buddhism (which included many Vajrayana elements). It thus preserves many Indian Buddhist tantric practices of the post-Gupta early medieval period (500–1200 CE), along with numerous native Tibetan developments. In the pre-modern era, Tibetan Buddhism spread outside of Tibet primarily due to the influence of the Mongol-led Yuan dynasty, founded by Kublai Khan, who ruled China, Mongolia, and parts of Siberia. In the Modern era, Tibetan Buddhism has spread outside of Asia because of the efforts of the Tibetan diaspora (1959 onwards). As the Dalai Lama escaped to India, the Indian subcontinent is also known for its renaissance of Tibetan Buddhism monasteries, including the rebuilding of the three major monasteries of the Gelug tradition.
+Apart from classical Mahāyāna Buddhist practices like the ten perfections, Tibetan Buddhism also includes tantric practices, such as deity yoga and the Six Dharmas of Naropa, as well as methods that"
+2025-08-17T11:31:00.700528,https://en.wikipedia.org/wiki/Creator_in_Buddhism,Creator in Buddhism,"Generally speaking, Buddhism is a religion that does not include the belief in a monotheistic creator deity. As such, it has often been described as either (non-materialistic) atheism or as nontheism. However, other scholars have challenged these descriptions since some forms of Buddhism do posit different kinds of transcendent, unborn, and unconditioned ultimate realities (e.g., Buddha-nature).
+Buddhist teachings state that there are divine beings called devas (sometimes translated as 'gods') and other Buddhist deities, heavens, and rebirths in its doctrine of saṃsāra, or cyclical rebirth. Buddhism teaches that none of these gods are creators or eternal beings. However, they can live very long lives. In Buddhism, the devas are also trapped in the cycle of rebirth and are not necessarily virtuous. Thus, while Buddhism includes multiple ""gods"", its main focus is not on them. Peter Harvey calls this ""trans-polytheism"".
+Buddhist texts also posit that mundane deities, such as Mahabrahma, are misconstrued to be creators. Buddhist ontology follows the doctrine of dependent origination, whereby all phenomena arise in dependence on other phenomena, hence no primal unmoved mover could be acknowledged or discerned. Gautama Buddha, in the early Buddhist texts, is also shown as stating that he saw no single beginning to the universe.
+During the medieval period, Buddhist philosophers like Vasubandhu developed extensive refutations of creationism and Hindu theism. Because of this, some mod"
+2025-08-17T11:31:00.700531,https://en.wikipedia.org/wiki/Zen,Zen,"Zen (Japanese pronunciation: [dzeꜜɴ, dzeɴ]; from Chinese: Chán; in Korean: Sŏn, and Vietnamese: Thiền) is a Mahayana Buddhist tradition that developed in China during the Tang dynasty by blending Indian Mahayana Buddhism, particularly Yogacara and Madhyamaka philosophies, with Chinese Taoist thought, especially Neo-Daoist. Zen originated as the Chan School (禪宗, chánzōng, 'meditation school') or the Buddha-mind school (佛心宗, fóxīnzōng), and later developed into various sub-schools and branches.
+Chan is traditionally believed to have been brought to China by the semi-legendary figure Bodhidharma, an Indian (or Central Asian) monk who is said to have introduced dhyana teachings to China. From China, Chán spread south to Vietnam and became Vietnamese Thiền, northeast to Korea to become Seon Buddhism, and east to Japan, becoming Japanese Zen.
+Zen emphasizes meditation practice, direct insight into one's own Buddha nature (見性, Ch. jiànxìng, Jp. kenshō), and the personal expression of this insight in daily life for the benefit of others. Some Zen sources de-emphasize doctrinal study and traditional practices, favoring direct understanding through zazen and interaction with a master (Jp: rōshi, Ch: shīfu) who may be depicted as an iconoclastic and unconventional figure. In spite of this, most Zen schools also promote traditional Buddhist practices like chanting, precepts, walking meditation, rituals, monasticism and scriptural study.
+With an emphasis on Buddha-nature thought, intrinsi"
+2025-08-17T11:31:00.700533,https://en.wikipedia.org/wiki/Buddhism_and_Hinduism,Buddhism and Hinduism,"Buddhism and Hinduism have common origins in Ancient India, which later spread and became dominant religions in Southeast Asian countries, including Cambodia and Indonesia around the 4th century CE. Buddhism arose in the Gangetic plains of Eastern India in the 5th century BCE during the Second Urbanisation (600–200 BCE). Hinduism developed as a fusion or synthesis of practices and ideas from the ancient Vedic religion and elements and deities from other local Indian traditions.
+Both religions share many beliefs and practices but also exhibit pronounced differences that have led to significant debate. Both religions share a belief in karma and rebirth (or reincarnation). They both accept the idea of spiritual liberation (moksha or nirvana) from the cycle of reincarnation and promote similar religious practices, such as dhyana, samadhi, mantra, and devotion. Both religions also share many deities (though their nature is understood differently), including Saraswati, Vishnu (Upulvan), Mahakala, Indra, Ganesha, and Brahma.
+However, Buddhism notably rejects fundamental Hindu doctrines such as atman (substantial self or soul), Brahman (a universal eternal source of everything), and the existence of a creator God (Ishvara). Instead, Buddhism teaches not-self (anatman) and dependent arising as fundamental metaphysical theories."
+2025-08-17T11:31:00.700536,https://en.wikipedia.org/wiki/The_Void_(philosophy),The Void (philosophy),"The concept of ""The Void"" in philosophy encompasses the ideas of nothingness and emptiness, a notion that has been interpreted and debated across various schools of metaphysics. In ancient Greek philosophy, the Void was discussed by thinkers like Democritus, who saw it as a necessary space for atoms to move, thereby enabling the existence of matter. Contrasting this, Aristotle famously denied the existence of a true Void, arguing that nature inherently avoids a vacuum.
+In Eastern philosophical traditions, the Void takes on significant spiritual and metaphysical meanings. In Buddhism, Śūnyatā refers to the emptiness inherent in all things, a fundamental concept in understanding the nature of reality. In Taoism, the Void is represented by Wuji, the undifferentiated state from which all existence emerges, embodying both the potential for creation and the absence of form.
+Throughout the history of Western thought, the Void has also been explored in the context of existentialism and nihilism, where it often symbolizes the absence of intrinsic meaning in life and the human condition's confrontation with nothingness. Modern scientific discussions have further engaged with the concept of the Void, particularly in the study of quantum mechanics and cosmology, where it is linked to ideas such as the quantum vacuum and the structure of the universe.
+In Western esotericism, aphairesis (""clearing aside""), or the via negativa, is a method used to approach the transcendent 'Ground of Being'"
+2025-08-17T11:31:09.509923,https://en.wikipedia.org/wiki/Statistical_hypothesis_test,Statistical hypothesis test,"A statistical hypothesis test is a method of statistical inference used to decide whether the data provide sufficient evidence to reject a particular hypothesis. A statistical hypothesis test typically involves a calculation of a test statistic. Then a decision is made, either by comparing the test statistic to a critical value or equivalently by evaluating a p-value computed from the test statistic. Roughly 100 specialized statistical tests are in use and noteworthy."
+2025-08-17T11:31:09.509962,https://en.wikipedia.org/wiki/Null_(SQL),Null (SQL),"In SQL, null or NULL is a special marker used to indicate that a data value does not exist in the database. Introduced by the creator of the relational database model, E. F. Codd, SQL null serves to fulfill the requirement that all true relational database management systems (RDBMS) support a representation of ""missing information and inapplicable information"". Codd also introduced the use of the lowercase Greek omega (ω) symbol to represent null in database theory. In SQL, NULL is a reserved word used to identify this marker.
+A null should not be confused with a value of 0. A null indicates a lack of a value, which is not the same as a zero value. For example, consider the question ""How many books does Adam own?"" The answer may be ""zero"" (we know that he owns none) or ""null"" (we do not know how many he owns). In a database table, the column reporting this answer would start with no value (marked by null), and it would not be updated with the value zero until it is ascertained that Adam owns no books.
+In SQL, null is a marker, not a value. This usage is quite different from most programming languages, where a null value of a reference means it is not pointing to any object."
+2025-08-17T11:31:09.509968,https://en.wikipedia.org/wiki/Names_for_the_number_0_in_English,Names for the number 0 in English,"""Zero"" is the usual name for the number 0 in English. In British English ""nought"" is also used and in American English ""naught"" is used occasionally for zero, but (as with British English) ""naught"" is more often used as an archaic word for nothing. ""Nil"", ""love"", and ""duck"" are used by different sports for scores of zero.
+There is a need to maintain an explicit distinction between digit zero and letter O, which, because they are both usually represented in English orthography (and indeed most orthographies that use Latin script and Arabic numerals) with a simple circle or oval, have a centuries-long history of being frequently conflated. However, in spoken English, the number 0 is often read as the letter ""o"" (""oh""). For example, when dictating a telephone number, the series of digits ""1070"" may be spoken as ""one zero seven zero"" or as ""one oh seven oh"", even though the letter ""O"" on the telephone keypad in fact corresponds to the digit 6.
+In certain contexts, zero and nothing are interchangeable, as is ""null"". Sporting terms are sometimes used as slang terms for zero, as are ""nada"", ""zilch"" and ""zip""."
+2025-08-17T11:31:09.509973,https://en.wikipedia.org/wiki/Linear_algebra,Linear algebra,"Linear algebra is the branch of mathematics concerning linear equations such as
+
+  
+    
+      
+        
+          a
+          
+            1
+          
+        
+        
+          x
+          
+            1
+          
+        
+        +
+        ⋯
+        +
+        
+          a
+          
+            n
+          
+        
+        
+          x
+          
+            n
+          
+        
+        =
+        b
+        ,
+      
+    
+    {\displaystyle a_{1}x_{1}+\cdots +a_{n}x_{n}=b,}
+  
+
+linear maps such as
+
+  
+    
+      
+        (
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        ↦
+        
+          a
+          
+            1
+          
+        
+        
+          x
+          
+            1
+          
+        
+        +
+        ⋯
+        +
+        
+          a
+          
+            n
+          
+        
+        
+          x
+          
+            n
+          
+        
+        ,
+      
+    
+    {\displaystyle (x_{1},\ldots ,x_{n})\mapsto a_{1}x_{1}+\cdots +a_{n}x_{n},}
+  
+
+and their representations in vector spaces and through matrices.
+
+Linear algebra is central to almost all areas of mathematics. For instance, linear algebra is fundamental in modern presentations of geometry, including for defining basic objects such as lines, planes and rotations. Also, functional analysis, a branch of mathematical analysis, may be viewed as the application of li"
+2025-08-17T11:31:09.509979,https://en.wikipedia.org/wiki/Power_(statistics),Power (statistics),"In frequentist statistics, power is the probability of detecting a given effect (if that effect actually exists) using a given test in a given context. In typical use, it is a function of the specific test that is used (including the choice of test statistic and significance level), the sample size (more data tends to provide more power), and the effect size (effects or correlations that are large relative to the variability of the data tend to provide more power).
+More formally, in the case of a simple hypothesis test with two hypotheses, the power of the test is the probability that the test correctly rejects the null hypothesis (
+  
+    
+      
+        
+          H
+          
+            0
+          
+        
+      
+    
+    {\displaystyle H_{0}}
+  
+) when the alternative hypothesis (
+  
+    
+      
+        
+          H
+          
+            1
+          
+        
+      
+    
+    {\displaystyle H_{1}}
+  
+) is true. It is commonly denoted by 
+  
+    
+      
+        1
+        −
+        β
+      
+    
+    {\displaystyle 1-\beta }
+  
+, where 
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  
+ is the probability of making a type II error (a false negative) conditional on there being a true effect or association."

@@ -1,0 +1,58 @@
+version: '3'
+
+services:
+  mcp-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - SMITHERY_MCP_KEY=${SMITHERY_MCP_KEY}
+      - EXA_API_KEY=${EXA_API_KEY}
+      - MCP_SERVER_PORT=8000
+      - YOUTUBE_MCP_PORT=8001
+      - WEB_SEARCH_MCP_PORT=8002
+    volumes:
+      - .:/app
+    command: python mcp_server.py
+    restart: unless-stopped
+    networks:
+      - mcp-network
+
+  youtube-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8001"
+    environment:
+      - SMITHERY_MCP_KEY=${SMITHERY_MCP_KEY}
+      - YOUTUBE_MCP_PORT=8001
+    volumes:
+      - .:/app
+    command: python youtube_transcript_server.py
+    restart: unless-stopped
+    networks:
+      - mcp-network
+
+  web-search-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8002:8002"
+    environment:
+      - SMITHERY_MCP_KEY=${SMITHERY_MCP_KEY}
+      - EXA_API_KEY=${EXA_API_KEY}
+      - WEB_SEARCH_MCP_PORT=8002
+    volumes:
+      - .:/app
+    command: python web_search_server.py
+    restart: unless-stopped
+    networks:
+      - mcp-network
+
+networks:
+  mcp-network:
+    driver: bridge 
