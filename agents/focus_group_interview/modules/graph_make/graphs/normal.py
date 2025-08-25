@@ -19,7 +19,7 @@ knowledge 부분은 추후 search 부분과 연결
 # 페르소나 정보
 ###
 
-with open("../person/persona.json", 'r', encoding='utf-8') as f:
+with open("./persona/persona.json", 'r', encoding='utf-8') as f:
     persona_data = json.load(f)
 
 moderator_1_prompt = persona_data['모더레이터 01']

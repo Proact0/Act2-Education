@@ -1,5 +1,10 @@
+import os
+from dotenv import load_dotenv
+
 from google import genai
 import enum
+
+load_dotenv()
 
 class TalkType(enum.Enum):
     NORMAL = "normal"
@@ -8,8 +13,8 @@ class TalkType(enum.Enum):
 
 class StartGraph():
     def __init__(self):
-        
-        self.client = genai.Client()
+
+        self.client = genai.Client(api_key = os.getenv("GOOGLE_API_KEY"))
 
     def get_type(self, theme):
 
